@@ -92,7 +92,7 @@ var config = {
             id: 'fourth-chapter',
             alignment: 'fully',
             hidden: false,
-            title: 'Third Title',
+            title: 'NYC Flooding program',
             image: 'https://www.re-thinkingthefuture.com/wp-content/uploads/2021/01/A3042-Flood-Architecture_-The-Way-Ahead-IMAGE-6.jpg',
             description: 'Architecture has been used to restrict the heavy water flow from reaching habitable areas by creating soft and hard spaces as front-line warriors. The innovative firm BIG proposed the project BIG U in New York where a 16 km long system employing multiple water retention technology is being developed along the Manhattan River. The system further branches into neighborhood-level interventions, creating a wholesome protective blanket for the city.',
             location: {
