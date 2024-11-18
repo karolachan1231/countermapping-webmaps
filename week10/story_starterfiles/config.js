@@ -22,10 +22,10 @@ var config = {
             image: 'https://d.newsweek.com/en/full/1885388/storm-ida-new-york.jpg',
             description: 'In the nighttime, the floodwaters in Manhattan have almost spread up the steps.',
             location: {
-                center: [-73.96061, 40.79231],
-                zoom: 12.03,
-                pitch: 45.00,
-                bearing: -40.00
+                center: [-73.96782, 40.77762],
+                zoom: 11.48,
+                pitch: 0.00,
+                bearing: 8.80
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -52,8 +52,8 @@ var config = {
             image: 'https://media.nbcnewyork.com/2019/09/central-park-west-water-main-break.jpg?resize=1200%2C675',
             description: 'A water main break near Central Park has flooded the street and knocked out power and water to at least two buildings. The main broke near the intersection of Central Park West and 95th Street Wednesday evening, according to the Department of Environmental Protection. Police and fire trucks blocked off the flooded intersection as crews responded to repair the main. Work crews were expected to work through the night. The break is affecting some buildings, which currently do not have water or power. Neighbors appeared to be handling the outages in good spirits.People are walking the hallways, checking on each other, said Christina Richman, whose parents live in one of the affected buildings. Everyone is helping each other out. Subways were bypassing area stations earlier as a result of the water main break, but have since resumed service with some delays. ',
             location: {
-                center: [-73.94852, 40.79769],
-                zoom: 16.04,
+                center: [-74.01039,40.68003],
+                zoom: 17.21,
                 pitch: 45.00,
                 bearing: -40.00,
                 // flyTo additional controls-
