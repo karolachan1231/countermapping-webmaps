@@ -66,6 +66,7 @@ var config = {
             title: 'Flooding in NYC',
             image: 'https://media.nbcnewyork.com/2019/09/central-park-west-water-main-break.jpg?resize=1200%2C675',
             description: 'A water main break near Central Park has flooded the street and knocked out power and water to at least two buildings. The main broke near the intersection of Central Park West and 95th Street Wednesday evening, according to the Department of Environmental Protection. Police and fire trucks blocked off the flooded intersection as crews responded to repair the main. Work crews were expected to work through the night. The break is affecting some buildings, which currently do not have water or power. Neighbors appeared to be handling the outages in good spirits.People are walking the hallways, checking on each other, said Christina Richman, whose parents live in one of the affected buildings. Everyone is helping each other out. Subways were bypassing area stations earlier as a result of the water main break, but have since resumed service with some delays. ',
+            video: 'images/902-1_902-2364-PD2_preview.mp4',
             location: {
                 center: [-74.01039, 40.68003],
                 zoom: 17.21,
