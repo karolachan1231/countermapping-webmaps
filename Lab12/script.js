@@ -38,6 +38,7 @@ var story = document.getElementById('story');
 var features = document.createElement('div');
 features.setAttribute('id', 'features');
 
+
 var header = document.createElement('div');
 
 if (config.title) {
@@ -55,6 +56,18 @@ if (config.subtitle) {
 if (config.byline) {
     var bylineText = document.createElement('p');
     bylineText.innerText = config.byline;
+    header.appendChild(bylineText);
+}
+
+if (config.para1) {
+    var bylineText = document.createElement('p');
+    bylineText.innerText = config.para1;
+    header.appendChild(bylineText);
+}
+
+if (config.para2) {
+    var bylineText = document.createElement('p');
+    bylineText.innerText = config.para2;
     header.appendChild(bylineText);
 }
 
