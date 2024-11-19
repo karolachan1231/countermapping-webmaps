@@ -23,8 +23,20 @@ map.addLayer({
         'type':'circle',
         'source':'restaurantSource',
         'source-layer':'_Historical__Restaurant_Inspe-8qfqy2',
+        
         'paint':{
-			'circle-color': '#66ccff'}
+      'circle-opacity': 0.3,
+      'circle-color':
+        ['step',
+          ['to-number', ['get', 'inspection_score']],
+          '#aaaaaa',  
+          45, '#440154',  // (45 - 80)
+          80, '#3b528b',  // (80 - 85)
+          85, '#21908d',  // (85 - 90)
+          90, '#5dc963',  // (90 - 95)
+          95, '#fde725'   // (95 - 100)
+          ]
+        }
   })
 
 	map.on('mouseenter', 'restaurantLayer', (e) => {
@@ -33,7 +45,15 @@ map.addLayer({
         var textField = document.getElementById('restText');
         textField.innerHTML = name;
 
-    })
+    });
 
+console.log('My name is YOUR-NAME');
+map.on('mouseenter', 'restaurantLayer', (e) => {
+        console.log(e.features[0]['properties']['business_name']);
+        var name = e.features[0]['properties']['business_name']
+        var textField = document.getElementById('restText');
+        textField.innerHTML = name
+
+})
 
 })

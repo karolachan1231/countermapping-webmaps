@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-#wenfei{
+#hanyu{
   position: fixed;
   top: 0;
   bottom: 0;
@@ -16,8 +16,6 @@ body {
   bottom: 0;
   width:20%;
   left:80%;
-  /*margin-left:3%;
-  margin-right:3%;*/
 }
 
 #title{
@@ -33,4 +31,15 @@ body {
 #restText{
   margin-left:3%;
   margin-right:3%;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: darkslateblue;
 }
